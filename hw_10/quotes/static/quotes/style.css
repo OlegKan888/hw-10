@@ -1,0 +1,70 @@
+.quote {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #333333;
+}
+
+.quote span.text {
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+    font-style: italic;
+}
+.quote small.author {
+    font-weight: bold;
+    color: #3677E8;
+}
+.quote .tags {
+    margin-top: 10px;
+}
+.tag {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    background-color: #7CA3E6;
+}
+
+.pager {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.pagination-nav {
+    display: flex;
+    justify-content: center; /* Центрує кнопки по горизонталі */
+    margin-top: 20px; /* Відступ від цитат */
+    margin-left: 20px;
+}
+
+.pager {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Відстань між кнопками */
+    padding: 0;
+    margin: 0;
+}
+
+.pager li {
+    display: inline-block;
+}
+
+.pager a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #0056b3;
+    transition: background-color 0.3s;
+}
+
+.pager a:hover {
+    background-color: #0056b3;
+}
+
+.disabled {
+    color: #333333;
+}
